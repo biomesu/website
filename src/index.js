@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, HashRouter } from 'react-router-dom';
 import About from './About';
 import Skills from "./Skills";
 import Projects from "./Projects";
@@ -17,7 +17,7 @@ import Header from "./Header";
 function App() {
   
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Header />} />
         <Route path="/about" element={<About />} />
@@ -26,7 +26,7 @@ function App() {
         <Route path="/contact" element={<ContactMe />} />
         
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
