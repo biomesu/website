@@ -12,6 +12,16 @@ import unityui2 from './images/unityui2.png';
 import unityui from './images/unityui.png';
 import project2 from './images/project2.png';
 import project1 from './images/project1.png';
+import vrgame from './images/vrgame.png';
+import vrgame2 from './images/vrgame2.png';
+import vrgame3 from './images/vrgame3.png';
+import vrgame4 from './images/vrgame4.png';
+import vrgame5 from './images/vrgame5.png';
+import vrgame6 from './images/vrgame6.png';
+import vrgame7 from './images/vrgame7.png';
+import vrgame8 from './images/vrgame8.png';
+import vrgame9 from './images/vrgame9.png';
+
 
 const Projects = () => {
   useEffect(() => {
@@ -98,7 +108,12 @@ const Projects = () => {
         </div>
       </section>
       <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
-        <img className="image" src={unity1} draggable="false" alt="Unity Image 1" />
+      <img className="image" src={vrgame} draggable="false" alt="vr Unity Image 1" />
+        <img className="image" src={vrgame2} draggable="false" alt="vr Unity Image 2" />
+        <img className="image" src={vrgame5} draggable="false" alt="vr Unity Image 1" />
+        <img className="image" src={vrgame6} draggable="false" alt="vr Unity Image 2" />
+        <img className="image" src={vrgame7} draggable="false" alt="vr Unity Image 1" />
+        <img className="image" src={vrgame8} draggable="false" alt="vr Unity Image 1" />
         <img className="image" src={unity2} draggable="false" alt="Unity Image 2" />
         <img className="image" src={unity3} draggable="false" alt="Unity Image 3" />
         <img className="image" src={blizzardui} draggable="false" alt="Blizzard UI Image" />

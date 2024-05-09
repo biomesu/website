@@ -6,6 +6,7 @@ import index from './images/indexbanner.jpg';
 import unity3 from './images/unity3.png';
 import neon from './images/neonnights.png';
 import mobileapp from './images/mobileapp.png';
+import vrgame8 from './images/vrgame8.png';
 
 const Header = () => {
   const [navLinksVisible, setNavLinksVisible] = useState(false);
@@ -61,6 +62,17 @@ const Header = () => {
         </div>
 
         {/* Project Sections */}
+        <section className="test2">
+          <img src={vrgame8} className="neon" alt="Bok Choy" />
+          <h10>BuildaPCVR</h10>
+          <p className="project-description2">
+          VRBuildaPC is an immersive hands on VR PC building simulator designed to provide users with  {'\n'}
+          a comprehensive and engaging learning experience in assembling a computer. Users will step  {'\n'}
+          into a virtual workshop equipped with lifelike components, tools, and step-by-step guides to  {'\n'}
+          simulate the process of building a PC from scratch.{'\n'}
+  
+        </p>
+        </section>
         <section className="test1">
           <img src={unity3} className="neon2" alt="Bok Choy" />
           <h11>Bok Choy</h11>
@@ -86,14 +98,13 @@ const Header = () => {
         </section>
         <section className="test">
           <img src={mobileapp} className="neon3"  />
-          <h14>Neon Mobile App</h14>
+          <h14>EcoConnect Mobile App</h14>
           <p className="project-description3">
-          The game is a cyberpunk RPG set in a dystopian future {'\n'}
-         where players take on the role of a street-wise hacker {'\n'}
-        trying to survive in a world of corrupt corporations, {'\n'}
-        ruthless gangs, and high-tech weaponry. The game's UI {'\n'}
-        should be designed to create a sense of urban grittiness {'\n'}
-        and high-tech innovation, with a sleek and stylized design.{'\n'}
+          EcoConnect is a mobile app designed to encourage and {'\n'}
+          facilitate sustainable living by connecting individuals {'\n'}
+          within local communities. The app aims to promote eco- {'\n'}
+          friendly practice. {'\n'}
+    
         </p>
         </section>
         
