@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.634ccdc4.css",
+    "main.js": "/website/static/js/main.7cd7ebfc.js",
+    "static/media/project2.png": "/website/static/media/project2.8f66e38322773054ed4a.png",
+    "static/media/neonnights.png": "/website/static/media/neonnights.08f4ef32089386e7c7e3.png",
+    "static/media/spotifyapi.png": "/website/static/media/spotifyapi.4dd249a6b800e11909ad.png",
+    "static/media/unity6.png": "/website/static/media/unity6.7971e294f7e3b809e717.png",
+    "static/media/unityui.png": "/website/static/media/unityui.2b2e6a252b1863cb197e.png",
+    "static/media/unity2.png": "/website/static/media/unity2.6dfebbf56bb4da0d815a.png",
+    "static/media/unity1.png": "/website/static/media/unity1.5515f78d1ca810480916.png",
+    "static/media/unity3.png": "/website/static/media/unity3.9a955197b62b08a2e176.png",
+    "static/media/mobileapp.png": "/website/static/media/mobileapp.eead39e24bb487d3b821.png",
+    "static/media/project1.png": "/website/static/media/project1.2f87935a1ce65d2be446.png",
+    "static/media/blizzardui.png": "/website/static/media/blizzardui.5ccb0a50cb2bc8ce185f.png",
+    "static/media/unityui2.png": "/website/static/media/unityui2.3664fb9a53bf5010ed73.png",
+    "static/media/wireframe.png": "/website/static/media/wireframe.7fa38de79d118a02e52f.png",
+    "static/media/indexbanner.jpg": "/website/static/media/indexbanner.49f0ed363ca16e54407c.jpg",
+    "static/media/white.jpg": "/website/static/media/white.d55ba6d74db2d2c4fda2.jpg",
+    "index.html": "/website/index.html",
+    "main.634ccdc4.css.map": "/website/static/css/main.634ccdc4.css.map",
+    "main.7cd7ebfc.js.map": "/website/static/js/main.7cd7ebfc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.634ccdc4.css",
+    "static/js/main.7cd7ebfc.js"
+  ]
+}
