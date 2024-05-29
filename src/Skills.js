@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './styles1.css'; 
+import './work.css';
 import index from './images/indexbanner.jpg';
+import { projectsNav } from './Data';
+import { projectsData } from './Data';
+import WorkItems from './WorkItems';
 import neonnights from './images/neonnights.png';
 import wireframe from './images/wireframe.png';
 import mobileAppDesign from './images/mobileapp.png';
 import unity6 from './images/unity6.png';
 import spotifyapi from './images/spotifyapi.png';
+import mobileapp from './images/mobileapp.png';
 import unity1 from './images/unity1.png';
 import vrgame from './images/vrgame.png';
 import vrgame2 from './images/vrgame2.png';
@@ -19,7 +24,30 @@ import vrgame8 from './images/vrgame8.png';
 import vrgame9 from './images/vrgame9.png';
 
 
+
+
 const Skills = () => {
+  const [item,setItem] = useState({name: 'all'});
+  const [projects, setProjects] = useState([]);
+  const [active, setActive] = useState(0);
+
+  useEffect(() => {
+    if(item.name === "all"){
+      setProjects(projectsData);
+    }
+    else{
+      const newProjects = projectsData.filter((project) => {
+        return project.category === item.name;
+      });
+      setProjects(newProjects);
+    }
+  
+  }, [item]);
+
+const handleClick = (e, index) => {
+  setItem({name: e.target.textContent});
+}
+
   return (
     <div id="header1">
       <section className="header">
@@ -41,115 +69,22 @@ const Skills = () => {
           <h9>Portfolio </h9>
         </div>
       </section>
+      <div className="work__filters">
+        {projectsNav.map((item,index) => {
+          return <span onClick={(e) =>{
+            handleClick(e,index);
+          }}
+           className='work__item' key={index} >
+            {item.name}</span>;
+        })}
+      </div>
+      <div className='work__container container grid'>
+        {projects.map((item) => {
+          return <WorkItems item={item} key={item.id}/>;
+        })}
 
-      {/* Portfolio Section */}
-      <section className="portfolio" id="portfolio">
-        <div className="main-text">
-          <p className="portfolio-text hidden">Latest Projects</p>
-        </div>
-        <div className="portfolio-content">
-          <div className="row4">
-            <a href="google.com">
-              <img src={vrgame} alt="Neon Nights" />
-            </a>
-            <div className="layer">
-              <h13> BuildaPCVR </h13>
-              <p>Starting Menu</p>
-            </div>
-          </div>
-          <div className="row4">
-            <a href="google.com">
-              <img src={vrgame2} alt="Neon Nights" />
-            </a>
-            <div className="layer">
-             
-              <p>Introduction</p>
-            </div>
-          </div>
-          <div className="row4">
-            <a href="google.com">
-              <img src={vrgame4} alt="Neon Nights" />
-            </a>
-            <div className="layer">
-            
-              <p>Computer Parts Store</p>
-            </div>
-          </div>
-          <div className="row4">
-            <a href="google.com">
-              <img src={vrgame5} alt="Neon Nights" />
-            </a>
-            <div className="layer">
-              
-              <p>PC Parts Interaction</p>
-            </div>
-          </div>
-          <div className="row4">
-            <a href="google.com">
-              <img src={vrgame6} alt="Neon Nights" />
-            </a>
-            <div className="layer">
-              
-              <p>VR Socket Interaction</p>
-            </div>
-          </div>
-          <div className="row4">
-            <a href="google.com">
-              <img src={vrgame8} alt="Neon Nights" />
-            </a>
-            <div className="layer">
-             
-              <p>Successfully building a Computer</p>
-            </div>
-          </div>
-          <div className="row4">
-            <a href="google.com">
-              <img src={unity6} alt="Neon Nights" />
-            </a>
-            <div className="layer">
-              <h13> Bok Choi Adventures UI </h13>
-              <p>Check out my Game UI design for Bok Choi!</p>
-            </div>
-          </div>
-          <div className="row4">
-            <a href="google.com">
-              <img src={spotifyapi} alt="Website Wireframe" />
-            </a>
-            <div className="layer">
-              <h13>Spotify Album Tracker</h13>
-              <p>A React.js web application seamlessly integrated with the Spotify API for dynamic artist and album exploration. Enhance your music discovery experience with personalized features, allowing users to effortlessly add and remove favorite albums. The application boasts a responsive UI built with React Bootstrap, ensuring an engaging and user-friendly interface</p>
-            </div>
-          </div>
-          <div className="row4">
-            <img src={unity1} alt="EcoConnect Mobile App" />
-            <div className="layer">
-              <h13> Bok Choi Adventures UI</h13>
-              <p>This was my very unity 3d RPG game!</p>
-            </div>
-          </div>
-          <div className="row4">
-            <img src={neonnights} alt="Visual Design" />
-            <div className="layer">
-              <h13>Neon Nights UI wireframe</h13>
-              <p>One of my first wireframes for my game called Neon Nights!</p>
-            </div>
-          </div>
-          <div className="row4">
-            <img src={wireframe} alt="Visual Design" />
-            <div className="layer">
-              <h13>Website Wireframe</h13>
-              <p>The first wireframe prototype when I wanted to design my website :D</p>
-            </div>
-          </div>
-          <div className="row4">
-            <img src={mobileAppDesign} alt="Visual Design" />
-            <div className="layer">
-              <h13>EcoConnect Mobile UI wireframe </h13>
-              <p>EcoConnect is a mobile app designed to encourage and facilitate sustainable living by connecting individuals within local communities. The app aims to promote eco-friendly practice.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
+      
 
       {/* Skills Section */}
       <section className="skills hidden">
@@ -180,7 +115,7 @@ const Skills = () => {
  
        
 
-        <a href="https://drive.google.com/file/d/160dSSJjp2t_YdnKqOU0Qcx3LuZAiZnvx/view?usp=sharing" className="resume-btn">Resume</a>
+        <a href="https://docs.google.com/document/d/1FD4k51XYnOMSCsXGhm9sSWXbrrw4nw-4ACuBKYqmkgM/edit?usp=sharing" className="resume-btn">Resume</a>
       </section>
 
    

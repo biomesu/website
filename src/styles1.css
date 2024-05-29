@@ -548,7 +548,7 @@ h13{
     width: 80%;
     margin: auto;
     
-    padding-top: 80px;
+    padding-top: 400px;
     padding-bottom: 50px;
 }
 .skills-col{
@@ -625,84 +625,12 @@ h13{
     left: 870px;
     
 }
-.row2{
-    display: flex;
-    width: 100%;
-    background: #fff;
-    border-radius: 15px;
-    overflow: hidden;
-}
-.col-1, col-2{
-    flex-basis: 50%;
-    overflow: hidden;
-}
-.col-2 img{
-    width: 100%;
-}
-.header2{
- min-height: 100vh;
- width: 100%;
-background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/white.jpg);
-    padding-left: 6%;
-    padding-right: 6%;
-    color: #fff;
-   
-}
-.button2{
-     display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
+.work__filtters{
     position: relative;
-    cursor: pointer;
+    top: 1000px;
+    left: 400px;
 }
-.col-1{
-    padding: 8% 5%;
-}
-.col-1 h5{
-    font-size: 60px;
-    line-height: 80px;
-    letter-spacing: 2px;
-    color: #333;
-}
-.col-1 p{
-    color: #777;
-    line-height: 22px;
-    margin: 15px 0 30px;
-}
-ul2{
-    position: absolute;
-    bottom: 100px;
-    left: 11%;
-    
-}
-ul2 li{
-    list-style: none;
-    width: 15px;
-    height: 15px;
-    display: inline-block;
-    background: #bfbfbf;
-    border-radius: 50%;
-    margin-right: 15px;
-    cursor: pointer;
-}
-ul2 .active{
-    background: #333;
-}
-.zoom{
-    animation: zoomout 0.5s linear 1;
-}
-@keyframes zoomout{
-    0%{
-        transform: scale(1.2);
-    }
-    100%{
-        
-    }
-}
+
 
 /*----- Contact me page -----*/
 .contact-me{
