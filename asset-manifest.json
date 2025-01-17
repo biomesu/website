@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.96cf4b58.css",
-    "main.js": "/website/static/js/main.6145d9ba.js",
+    "main.js": "/website/static/js/main.8768b535.js",
     "static/media/project2.png": "/website/static/media/project2.8f66e38322773054ed4a.png",
     "static/media/vrgame5.png": "/website/static/media/vrgame5.01f6bd371bcd9ca8901f.png",
     "static/media/vrgame6.png": "/website/static/media/vrgame6.7abc17e098c9d1780154.png",
@@ -26,6 +26,7 @@
     "static/media/echoboss2.png": "/website/static/media/echoboss2.c7aa46dcd437e2e552ea.png",
     "static/media/blizzardui.png": "/website/static/media/blizzardui.5ccb0a50cb2bc8ce185f.png",
     "static/media/unityui2.png": "/website/static/media/unityui2.3664fb9a53bf5010ed73.png",
+    "static/media/discordbot.png": "/website/static/media/discordbot.cee4c8d7c53e15af924d.png",
     "static/media/gamewebsite.png": "/website/static/media/gamewebsite.eb14d7005b98952374b0.png",
     "static/media/aerospace.png": "/website/static/media/aerospace.a5f2b455b4651e7b8046.png",
     "static/media/wireframe.png": "/website/static/media/wireframe.7fa38de79d118a02e52f.png",
@@ -36,10 +37,10 @@
     "static/media/echomainmenu.png": "/website/static/media/echomainmenu.47464ad09670ac855fe2.png",
     "index.html": "/website/index.html",
     "main.96cf4b58.css.map": "/website/static/css/main.96cf4b58.css.map",
-    "main.6145d9ba.js.map": "/website/static/js/main.6145d9ba.js.map"
+    "main.8768b535.js.map": "/website/static/js/main.8768b535.js.map"
   },
   "entrypoints": [
     "static/css/main.96cf4b58.css",
-    "static/js/main.6145d9ba.js"
+    "static/js/main.8768b535.js"
   ]
 }
