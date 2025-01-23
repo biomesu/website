@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.634ccdc4.css",
-    "main.js": "/website/static/js/main.696452ea.js",
+    "main.css": "/website/static/css/main.4f04eb2d.css",
+    "main.js": "/website/static/js/main.a923626f.js",
     "static/media/project2.png": "/website/static/media/project2.8f66e38322773054ed4a.png",
     "static/media/vrgame5.png": "/website/static/media/vrgame5.01f6bd371bcd9ca8901f.png",
     "static/media/vrgame6.png": "/website/static/media/vrgame6.7abc17e098c9d1780154.png",
     "static/media/neonnights.png": "/website/static/media/neonnights.08f4ef32089386e7c7e3.png",
-    "static/media/spotifyapi.png": "/website/static/media/spotifyapi.4dd249a6b800e11909ad.png",
     "static/media/vrgame2.png": "/website/static/media/vrgame2.3fb6513551644d54bd9a.png",
     "static/media/vrgame3.png": "/website/static/media/vrgame3.d20d8f87aa32becc07e5.png",
     "static/media/vrgame8.png": "/website/static/media/vrgame8.e32e93dd56bea200cd46.png",
+    "static/media/echoboss.png": "/website/static/media/echoboss.868a336f04093a840bbe.png",
     "static/media/unity6.png": "/website/static/media/unity6.7971e294f7e3b809e717.png",
+    "static/media/echogame.png": "/website/static/media/echogame.3fb852773b11aeb3e1f8.png",
     "static/media/vrgame9.png": "/website/static/media/vrgame9.8fc09f9302e85375cab0.png",
     "static/media/vrgame4.png": "/website/static/media/vrgame4.69c714987752d3a7ed12.png",
     "static/media/vrgame7.png": "/website/static/media/vrgame7.84431e12146bb33f4ae2.png",
@@ -20,18 +21,25 @@
     "static/media/unity1.png": "/website/static/media/unity1.5515f78d1ca810480916.png",
     "static/media/unity3.png": "/website/static/media/unity3.9a955197b62b08a2e176.png",
     "static/media/mobileapp.png": "/website/static/media/mobileapp.eead39e24bb487d3b821.png",
+    "static/media/autoequip2.png": "/website/static/media/autoequip2.da66738b89ba6c9c8977.png",
     "static/media/project1.png": "/website/static/media/project1.2f87935a1ce65d2be446.png",
     "static/media/blizzardui.png": "/website/static/media/blizzardui.5ccb0a50cb2bc8ce185f.png",
     "static/media/unityui2.png": "/website/static/media/unityui2.3664fb9a53bf5010ed73.png",
+    "static/media/discordbot.png": "/website/static/media/discordbot.cee4c8d7c53e15af924d.png",
+    "static/media/gamewebsite.png": "/website/static/media/gamewebsite.eb14d7005b98952374b0.png",
+    "static/media/aerospace.png": "/website/static/media/aerospace.a5f2b455b4651e7b8046.png",
     "static/media/wireframe.png": "/website/static/media/wireframe.7fa38de79d118a02e52f.png",
+    "static/media/me.jpg": "/website/static/media/me.363bc98b35007f059394.jpg",
+    "static/media/autoequip.png": "/website/static/media/autoequip.4f40589080290c70cac3.png",
     "static/media/indexbanner.jpg": "/website/static/media/indexbanner.49f0ed363ca16e54407c.jpg",
     "static/media/white.jpg": "/website/static/media/white.d55ba6d74db2d2c4fda2.jpg",
+    "static/media/echomainmenu.png": "/website/static/media/echomainmenu.47464ad09670ac855fe2.png",
     "index.html": "/website/index.html",
-    "main.634ccdc4.css.map": "/website/static/css/main.634ccdc4.css.map",
-    "main.696452ea.js.map": "/website/static/js/main.696452ea.js.map"
+    "main.4f04eb2d.css.map": "/website/static/css/main.4f04eb2d.css.map",
+    "main.a923626f.js.map": "/website/static/js/main.a923626f.js.map"
   },
   "entrypoints": [
-    "static/css/main.634ccdc4.css",
-    "static/js/main.696452ea.js"
+    "static/css/main.4f04eb2d.css",
+    "static/js/main.a923626f.js"
   ]
 }

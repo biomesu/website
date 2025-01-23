@@ -10,6 +10,7 @@ const ContactMe = () => {
     <section className="header">
       <img src={index} className="back-video" alt="Background Video" />
       <nav>
+        
         <div className={`nav-links`} id="navLinks">
           <i className="fa fa-times" ></i>
           <ul>
@@ -19,11 +20,15 @@ const ContactMe = () => {
             <li><Link to="/projects">PROJECTS</Link></li>
             <li><Link to="/contact">CONTACT</Link></li>
           </ul>
-          <h15>Contact Me</h15>
+          
         </div>
+        
         
         <i className="fa fa-bars" ></i>
       </nav>
+      <div className="text-box">
+      <h9>Contact Me</h9>
+      </div>
     </section>
     <section className="contact-me ">
       <div className="row">

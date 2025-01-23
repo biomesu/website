@@ -1,0 +1,125 @@
+/* Gallery container */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 20px;
+    background-color: #121212; /* Dark background */
+    color: white;
+  }
+  
+  /* Individual gallery items */
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gallery-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  /* Title overlay */
+  .image-title {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Modal container */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    overflow: hidden;
+    opacity: 0; /* Start hidden */
+    pointer-events: none; /* Prevent interaction until visible */
+    transition: opacity 0.5s ease; /* Smooth fade-in effect */
+  }
+  
+  .modal.animate-in {
+    opacity: 1; /* Fully visible */
+    pointer-events: auto; /* Allow interaction */
+  }
+  
+  .modal.animate-out {
+    opacity: 0; /* Fade-out effect */
+    pointer-events: none; /* Disable interaction */
+  }
+  
+  /* Modal content */
+  .modal-content {
+    background: hsl(0, 0%, 100%);
+    color: #121212;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 90%;
+    max-height: 90%;
+    text-align: center;
+    overflow-y: auto;
+    position: relative;
+    transform: scale(0.8); /* Start slightly smaller */
+    animation: fade-scale-in 0.5s ease forwards; /* Fade and scale in */
+  }
+  .modal-content p {
+    font-size: 15px;
+  }
+  
+  .modal.animate-out .modal-content {
+    animation: fade-scale-out 0.5s ease forwards; /* Fade and scale out */
+  }
+  
+  .modal-image {
+    width: 100%;
+    height: auto;
+    max-height: 60vh;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  
+  
+  /* Keyframes for fade and scale animation */
+  @keyframes fade-scale-in {
+    from {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-scale-out {
+    from {
+      transform: scale(1);
+      opacity: 1;
+    }
+    to {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+  }
+  

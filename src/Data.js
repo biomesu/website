@@ -20,7 +20,8 @@ import vrgame9 from './images/vrgame9.png';
 import wireframe from './images/wireframe.png';
 import mobileAppDesign from './images/mobileapp.png';
 import unity6 from './images/unity6.png';
-import spotifyapi from './images/spotifyapi.png';
+import equipmaster from './images/autoequip.png'
+import equipmaster2 from './images/autoequip2.png'
 import React, { useEffect } from 'react';
 
 
@@ -83,7 +84,7 @@ export const projectsData = [
     },
     {
         id:9,
-        image: spotifyapi,
+
         title: 'Spotify Album Tracker',
         description: 'A React.js Spotify web application',
         category: 'app',
@@ -128,6 +129,14 @@ export const projectsData = [
         description: 'Mobile application for eco-friendly communities',
         category: 'design',
         link: "https://www.figma.com/design/XcYoqPIM06qiSNF8ywCmBU/EcoConnect?node-id=0-1&t=sghCzNHK6j5gLgPp-1"
+    },
+    {
+        id:14,
+        image: equipmaster2,
+        title: 'EquipMaster',
+        description: 'ToolTip Addon',
+        category: 'all',
+        link: "https://github.com/biomesu/EquipMaster"
     },
 ];
 

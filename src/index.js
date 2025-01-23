@@ -6,6 +6,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import ContactMe from "./ContactMe";
 import './styles1.css';
+import { createRoot } from "react-dom/client";
 
 
 
@@ -31,4 +32,10 @@ function App() {
 }
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+const root = createRoot(rootElement);
+
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

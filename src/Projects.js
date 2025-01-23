@@ -21,7 +21,13 @@ import vrgame6 from './images/vrgame6.png';
 import vrgame7 from './images/vrgame7.png';
 import vrgame8 from './images/vrgame8.png';
 import vrgame9 from './images/vrgame9.png';
-
+import equipmaster from './images/autoequip.png';
+import equipmaster2 from './images/autoequip2.png';
+import echomain from './images/echomainmenu.png';
+import echogame from './images/echogame.png';
+import echoboss from './images/echoboss.png';
+import echowebsite from './images/gamewebsite.png';
+import aerospace from './images/aerospace.png'
 
 const Projects = () => {
   useEffect(() => {
@@ -108,7 +114,14 @@ const Projects = () => {
         </div>
       </section>
       <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
-      <img className="image" src={vrgame} draggable="false" alt="vr Unity Image 1" />
+        <img className="image" src={echowebsite} draggable="false" alt="vr Unity Image 2" />
+        <img className="image" src={echomain} draggable="false" alt="vr Unity Image 2" />
+        <img className="image" src={aerospace} draggable="false" alt="vr Unity Image 2" />
+        <img className="image" src={echoboss} draggable="false" alt="vr Unity Image 1" />
+        <img className="image" src={echogame} draggable="false" alt="vr Unity Image 1" />
+        <img className="image" src={equipmaster} draggable="false" alt="vr Unity Image 2" />
+        <img className="image" src={equipmaster2} draggable="false" alt="vr Unity Image 1" />
+        <img className="image" src={vrgame} draggable="false" alt="vr Unity Image 1" />
         <img className="image" src={vrgame2} draggable="false" alt="vr Unity Image 2" />
         <img className="image" src={vrgame5} draggable="false" alt="vr Unity Image 1" />
         <img className="image" src={vrgame6} draggable="false" alt="vr Unity Image 2" />
