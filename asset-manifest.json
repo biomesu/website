@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.96cf4b58.css",
-    "main.js": "/website/static/js/main.8768b535.js",
+    "main.css": "/website/static/css/main.4f04eb2d.css",
+    "main.js": "/website/static/js/main.a923626f.js",
     "static/media/project2.png": "/website/static/media/project2.8f66e38322773054ed4a.png",
     "static/media/vrgame5.png": "/website/static/media/vrgame5.01f6bd371bcd9ca8901f.png",
     "static/media/vrgame6.png": "/website/static/media/vrgame6.7abc17e098c9d1780154.png",
@@ -23,7 +23,6 @@
     "static/media/mobileapp.png": "/website/static/media/mobileapp.eead39e24bb487d3b821.png",
     "static/media/autoequip2.png": "/website/static/media/autoequip2.da66738b89ba6c9c8977.png",
     "static/media/project1.png": "/website/static/media/project1.2f87935a1ce65d2be446.png",
-    "static/media/echoboss2.png": "/website/static/media/echoboss2.c7aa46dcd437e2e552ea.png",
     "static/media/blizzardui.png": "/website/static/media/blizzardui.5ccb0a50cb2bc8ce185f.png",
     "static/media/unityui2.png": "/website/static/media/unityui2.3664fb9a53bf5010ed73.png",
     "static/media/discordbot.png": "/website/static/media/discordbot.cee4c8d7c53e15af924d.png",
@@ -36,11 +35,11 @@
     "static/media/white.jpg": "/website/static/media/white.d55ba6d74db2d2c4fda2.jpg",
     "static/media/echomainmenu.png": "/website/static/media/echomainmenu.47464ad09670ac855fe2.png",
     "index.html": "/website/index.html",
-    "main.96cf4b58.css.map": "/website/static/css/main.96cf4b58.css.map",
-    "main.8768b535.js.map": "/website/static/js/main.8768b535.js.map"
+    "main.4f04eb2d.css.map": "/website/static/css/main.4f04eb2d.css.map",
+    "main.a923626f.js.map": "/website/static/js/main.a923626f.js.map"
   },
   "entrypoints": [
-    "static/css/main.96cf4b58.css",
-    "static/js/main.8768b535.js"
+    "static/css/main.4f04eb2d.css",
+    "static/js/main.a923626f.js"
   ]
 }
