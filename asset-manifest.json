@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.412e1dc3.css",
-    "main.js": "/website/static/js/main.e6ef54ab.js",
+    "main.js": "/website/static/js/main.0cd993b4.js",
     "static/js/453.ad7768ec.chunk.js": "/website/static/js/453.ad7768ec.chunk.js",
     "static/media/project2.png": "/website/static/media/project2.8f66e38322773054ed4a.png",
     "static/media/vrgame5.png": "/website/static/media/vrgame5.01f6bd371bcd9ca8901f.png",
@@ -28,11 +28,11 @@
     "static/media/gamewebsite.png": "/website/static/media/gamewebsite.4a98138131c495ae3b79.png",
     "index.html": "/website/index.html",
     "main.412e1dc3.css.map": "/website/static/css/main.412e1dc3.css.map",
-    "main.e6ef54ab.js.map": "/website/static/js/main.e6ef54ab.js.map",
+    "main.0cd993b4.js.map": "/website/static/js/main.0cd993b4.js.map",
     "453.ad7768ec.chunk.js.map": "/website/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.412e1dc3.css",
-    "static/js/main.e6ef54ab.js"
+    "static/js/main.0cd993b4.js"
   ]
 }
