@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.02252311.css",
-    "main.js": "/website/static/js/main.c7db0aed.js",
+    "main.css": "/website/static/css/main.e473b495.css",
+    "main.js": "/website/static/js/main.f961b734.js",
     "static/js/453.ad7768ec.chunk.js": "/website/static/js/453.ad7768ec.chunk.js",
     "static/media/project2.png": "/website/static/media/project2.8f66e38322773054ed4a.png",
     "static/media/vrgame5.png": "/website/static/media/vrgame5.01f6bd371bcd9ca8901f.png",
@@ -11,6 +11,7 @@
     "static/media/vrgame8.png": "/website/static/media/vrgame8.e32e93dd56bea200cd46.png",
     "static/media/echoboss.png": "/website/static/media/echoboss.868a336f04093a840bbe.png",
     "static/media/echogame.png": "/website/static/media/echogame.3fb852773b11aeb3e1f8.png",
+    "static/media/gamewebsite.png": "/website/static/media/gamewebsite.fe16c0692a1da4d34ad5.png",
     "static/media/vrgame7.png": "/website/static/media/vrgame7.84431e12146bb33f4ae2.png",
     "static/media/unityui.png": "/website/static/media/unityui.2b2e6a252b1863cb197e.png",
     "static/media/unity2.png": "/website/static/media/unity2.6dfebbf56bb4da0d815a.png",
@@ -24,14 +25,13 @@
     "static/media/aerospace.png": "/website/static/media/aerospace.a5f2b455b4651e7b8046.png",
     "static/media/me.jpg": "/website/static/media/me.363bc98b35007f059394.jpg",
     "static/media/autoequip.png": "/website/static/media/autoequip.4f40589080290c70cac3.png",
-    "static/media/gamewebsite.png": "/website/static/media/gamewebsite.c40a4058de35f254bad4.png",
     "index.html": "/website/index.html",
-    "main.02252311.css.map": "/website/static/css/main.02252311.css.map",
-    "main.c7db0aed.js.map": "/website/static/js/main.c7db0aed.js.map",
+    "main.e473b495.css.map": "/website/static/css/main.e473b495.css.map",
+    "main.f961b734.js.map": "/website/static/js/main.f961b734.js.map",
     "453.ad7768ec.chunk.js.map": "/website/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02252311.css",
-    "static/js/main.c7db0aed.js"
+    "static/css/main.e473b495.css",
+    "static/js/main.f961b734.js"
   ]
 }
