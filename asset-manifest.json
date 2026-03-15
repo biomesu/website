@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.e473b495.css",
-    "main.js": "/website/static/js/main.f961b734.js",
+    "main.css": "/website/static/css/main.4a1d594b.css",
+    "main.js": "/website/static/js/main.1a98bbbb.js",
     "static/js/453.ad7768ec.chunk.js": "/website/static/js/453.ad7768ec.chunk.js",
     "static/media/project2.png": "/website/static/media/project2.8f66e38322773054ed4a.png",
     "static/media/vrgame5.png": "/website/static/media/vrgame5.01f6bd371bcd9ca8901f.png",
@@ -16,6 +16,7 @@
     "static/media/unityui.png": "/website/static/media/unityui.2b2e6a252b1863cb197e.png",
     "static/media/unity2.png": "/website/static/media/unity2.6dfebbf56bb4da0d815a.png",
     "static/media/vrgame.png": "/website/static/media/vrgame.d7cf567d94ef6b2d8e90.png",
+    "static/media/me.png": "/website/static/media/me.8f9fbe250a6dd2646ac1.png",
     "static/media/unity3.png": "/website/static/media/unity3.9a955197b62b08a2e176.png",
     "static/media/mobileapp.png": "/website/static/media/mobileapp.eead39e24bb487d3b821.png",
     "static/media/autoequip2.png": "/website/static/media/autoequip2.da66738b89ba6c9c8977.png",
@@ -23,15 +24,14 @@
     "static/media/blizzardui.png": "/website/static/media/blizzardui.5ccb0a50cb2bc8ce185f.png",
     "static/media/unityui2.png": "/website/static/media/unityui2.3664fb9a53bf5010ed73.png",
     "static/media/aerospace.png": "/website/static/media/aerospace.a5f2b455b4651e7b8046.png",
-    "static/media/me.jpg": "/website/static/media/me.363bc98b35007f059394.jpg",
     "static/media/autoequip.png": "/website/static/media/autoequip.4f40589080290c70cac3.png",
     "index.html": "/website/index.html",
-    "main.e473b495.css.map": "/website/static/css/main.e473b495.css.map",
-    "main.f961b734.js.map": "/website/static/js/main.f961b734.js.map",
+    "main.4a1d594b.css.map": "/website/static/css/main.4a1d594b.css.map",
+    "main.1a98bbbb.js.map": "/website/static/js/main.1a98bbbb.js.map",
     "453.ad7768ec.chunk.js.map": "/website/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e473b495.css",
-    "static/js/main.f961b734.js"
+    "static/css/main.4a1d594b.css",
+    "static/js/main.1a98bbbb.js"
   ]
 }
