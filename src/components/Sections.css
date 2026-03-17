@@ -1,0 +1,277 @@
+/* General containers */
+
+.section {
+  padding-top: 5rem;      
+  padding-bottom: 5rem;
+  padding-left: 1rem;  
+  padding-right: 1rem;
+}
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a202c; 
+  margin-bottom: 1.5rem;
+  text-align: center; 
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #000000; 
+  padding-bottom: 0.3rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.me-image-wrapper {
+  width: 300px;
+  height: 400px;
+  margin: 0 auto 1rem;
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.me-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.bg-gray-50 {
+  background-color: #f9fafb; 
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.max-w-3xl {
+  max-width: 48rem; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.max-w-4xl {
+  max-width: 56rem;  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* About */
+
+.about-section p {
+  color: #4b5563; 
+  font-size: 1.125rem; 
+  line-height: 1.6;
+}
+
+/* Headings */
+
+.text-3xl {
+  font-size: 1.875rem; 
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Hero */
+
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* was center */
+  align-items: center;
+  text-align: center;
+  padding-top: 14rem;  /* ⬅️ Add this */
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+  padding-right: 1.5rem;
+  margin-top: 0;
+}
+
+
+.text-6xl {
+  font-size: 3.75rem;
+  font-weight: 700;
+  max-width: 48rem;  
+  line-height: 1.1;
+}
+
+.text-gray-500 {
+  color: #6b7280; 
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;  
+}
+.github-corner {
+  position: relative;
+  z-index: 999;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.github-corner:hover {
+  opacity: 1;
+}
+
+.github-corner img {
+  width: 100%;
+  height: auto;
+}
+.github-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.github-button:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+}
+
+
+
+
+/* Timeline structure */
+.timeline {
+  position: relative;
+  margin: 6rem auto; /* ⬅️ center the whole block */
+  padding-left: 2rem;
+  border-left: 3px solid #d1d5db;
+  max-width: 700px;
+}
+
+
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -1.05rem;
+  top: 0.3rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: #3b82f6;
+  border-radius: 50%;
+}
+
+.timeline-content {
+  padding-left: 1rem;
+}
+
+.timeline-content h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.company {
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.timeline-location,
+.timeline-duration {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin: 0.2rem 0;
+}
+
+.timeline-content ul {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+}
+
+.timeline-content li {
+  font-size: 0.95rem;
+  color: #374151;
+  line-height: 1.5;
+  margin-bottom: 0.4rem;
+}
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+  color: #1f2937;
+}
+
+.project-description {
+  color: #4b5563;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .hero-section {
+    padding-top: 8rem; /* reduce from 14rem to 8rem on small screens */
+  }
+  .me-image-wrapper {
+    width: 160px;
+    height: 160px;
+  }
+}

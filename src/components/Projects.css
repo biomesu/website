@@ -1,0 +1,59 @@
+/* Projects.css */
+
+#image-track {
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  transition: transform 0.3s ease;
+  will-change: transform;
+  user-select: none;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: grab;
+}
+
+.image {
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+  flex-shrink: 0;
+  pointer-events: none;
+  border-radius: 8px;
+}
+
+.image:active {
+  cursor: grabbing;
+}
+
+.header {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 10;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+}

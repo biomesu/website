@@ -1,0 +1,22 @@
+.site-footer {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #f3f4f6; /* light gray */
+  color: #374151; /* dark gray */
+}
+
+
+.footer-links {
+  margin-top: 1rem;
+}
+
+.footer-links a {
+  color: #ccc;
+  margin: 0 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: white;
+}
