@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/website/static/css/main.4a1d594b.css",
-    "main.js": "/website/static/js/main.1a98bbbb.js",
+    "main.js": "/website/static/js/main.46d56cf1.js",
     "static/js/453.ad7768ec.chunk.js": "/website/static/js/453.ad7768ec.chunk.js",
     "static/media/project2.png": "/website/static/media/project2.8f66e38322773054ed4a.png",
+    "static/media/foodtruck.png": "/website/static/media/foodtruck.9c58e24d199568e7d422.png",
     "static/media/vrgame5.png": "/website/static/media/vrgame5.01f6bd371bcd9ca8901f.png",
     "static/media/vrgame6.png": "/website/static/media/vrgame6.7abc17e098c9d1780154.png",
     "static/media/neonnights.png": "/website/static/media/neonnights.08f4ef32089386e7c7e3.png",
@@ -25,13 +26,15 @@
     "static/media/unityui2.png": "/website/static/media/unityui2.3664fb9a53bf5010ed73.png",
     "static/media/aerospace.png": "/website/static/media/aerospace.a5f2b455b4651e7b8046.png",
     "static/media/autoequip.png": "/website/static/media/autoequip.4f40589080290c70cac3.png",
+    "static/media/foodtruck3.png": "/website/static/media/foodtruck3.c7e83beddfb3c1273a50.png",
+    "static/media/foodtruck2.png": "/website/static/media/foodtruck2.fa41f3efbcb1204f8226.png",
     "index.html": "/website/index.html",
     "main.4a1d594b.css.map": "/website/static/css/main.4a1d594b.css.map",
-    "main.1a98bbbb.js.map": "/website/static/js/main.1a98bbbb.js.map",
+    "main.46d56cf1.js.map": "/website/static/js/main.46d56cf1.js.map",
     "453.ad7768ec.chunk.js.map": "/website/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a1d594b.css",
-    "static/js/main.1a98bbbb.js"
+    "static/js/main.46d56cf1.js"
   ]
 }
